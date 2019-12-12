@@ -1110,7 +1110,7 @@ export default class AddProduct extends Component {
               <View style={{flexDirection:'row', justifyContent:'space-between'}} >
               <Text>{"* Product Brochure "}</Text>
               <TouchableOpacity onPress={()=> this.selectBroucher()}>
-                <Text style={[STYLES.rightAlignTxt]}>Add Broucher</Text>
+    <Text style={[STYLES.rightAlignTxt]}>{"Add Broucher (Size limit - Max 5MB)"}</Text>
               </TouchableOpacity>
               </View>
               <ScrollView showsVerticalScrollIndicator={false}>
