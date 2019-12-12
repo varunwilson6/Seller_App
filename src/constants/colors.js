@@ -1,0 +1,16 @@
+export const APP_COLOR="#24303E";
+export const BUTTON_COLOR="#8D0000"
+export const YELLOW_COLOR="#EA8C31"
+export const LIGHT_GRAY="#F2F3F7"
+export const APP_GRADIENT_COLOR1="#212d3a"
+export const APP_GRADIENT_COLOR2="#1f2b38"
+export const APP_GRADIENT_COLOR3="#23303f"
+export const APP_GRADIENT_COLOR4="#212d3a"
+export const APP_GRADIENT_COLOR5="#1c2530"
+export const FACEBOOK_HEX='#3b5998'
+export const GOOGLE_HEX="#db3236"
+export const LIGHT_GRAY_TAB="#F9F9F9"
+export const FORM_BACKGROUND="#DF0506"
+export const RATING_GREEN="#00C849"
+export const RATING_YELLOW="#FF9C00"
+export const RATING_RED="#FF001C"

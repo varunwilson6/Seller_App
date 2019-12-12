@@ -1,0 +1,91 @@
+import {StyleSheet,Platform} from 'react-native';
+import {SCREEN_WIDTH,SCREEN_HEIGHT} from '../../constants/common';
+import {LIGHT_GRAY,APP_COLOR,LIGHT_GRAY_TAB,BUTTON_COLOR,YELLOW_COLOR} from '../../constants/colors'
+
+export const STYLES=StyleSheet.create({
+  product:{
+    width:120,
+    height:120,
+    alignSelf:'center',
+    marginTop:SCREEN_HEIGHT/8.3
+  },
+  text:{
+    marginTop:10,
+    color:'black',
+    textAlign:'center',
+    fontSize:14,
+    marginHorizontal:SCREEN_HEIGHT/50,
+    fontFamily:"DIN-Regular"
+  },
+  pdf:{
+    width:150,
+    height:200,
+    alignSelf:'center',
+    marginTop:30
+  },
+	childRoot:{
+		width:SCREEN_WIDTH,
+		height:Platform.OS == "ios" && (SCREEN_WIDTH == 812 || SCREEN_HEIGHT == 812)?SCREEN_HEIGHT - 180 : SCREEN_HEIGHT - 150,
+	},
+  cardView:{
+    marginHorizontal:10,
+    backgroundColor:'white',
+    marginTop:8,
+    borderRadius:0,
+    paddingBottom:Platform.OS=="ios"?10:20
+  },
+  button:{
+    left:SCREEN_HEIGHT/33.3,
+    width:SCREEN_WIDTH - SCREEN_HEIGHT/16.6,
+    height:44,
+    backgroundColor:BUTTON_COLOR,
+    position:'absolute',
+    bottom:10,
+    justifyContent:'center'
+  },
+  buttonTxt:{
+    color:'white',
+    fontWeight:'bold',
+    fontSize:14,
+    alignSelf:'center',
+    fontFamily:"DIN-Regular"
+  },
+  textfield:{
+    marginHorizontal:SCREEN_HEIGHT/33.3,
+    marginTop:SCREEN_HEIGHT/50,
+    fontSize:14,
+    color:'gray',
+    fontFamily:"DIN-Regular"
+  },
+  description:{
+    marginHorizontal:SCREEN_HEIGHT/50,
+    height:150,
+    borderWidth:0.6,
+    borderColor:'lightgray',
+    marginTop:SCREEN_HEIGHT/33.3,
+    fontFamily:"DIN-Regular",
+    padding:10
+  },
+  relativeButton:{
+    marginTop:SCREEN_HEIGHT/25,
+    marginHorizontal:SCREEN_HEIGHT/50,
+    height:44,
+    backgroundColor:BUTTON_COLOR,
+    justifyContent:'center',
+  },
+  name:{
+    marginTop:10,
+    color:'black',
+    textAlign:'center',
+    fontSize:14,
+    fontFamily:"DIN-Regular",
+    marginLeft:10,
+    width:SCREEN_WIDTH-100,
+  },
+  rightAlignIcon:{
+    top:10,
+    right:10,
+    height:30,
+    position:'absolute',
+  }
+})

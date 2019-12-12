@@ -1,0 +1,79 @@
+import {StyleSheet,Platform} from 'react-native';
+import {SCREEN_WIDTH,SCREEN_HEIGHT} from '../../constants/common';
+import {LIGHT_GRAY,APP_COLOR,LIGHT_GRAY_TAB,BUTTON_COLOR} from '../../constants/colors'
+
+export const STYLES=StyleSheet.create({
+  productImage:{
+    marginLeft:SCREEN_HEIGHT/50,
+    marginTop:SCREEN_HEIGHT/50,
+    width:50,
+    height:50
+  },
+  text:{
+    marginLeft:10,
+    width:SCREEN_WIDTH - SCREEN_HEIGHT/25 - 60,
+    marginTop:SCREEN_HEIGHT/50,
+    color:'black',
+    fontSize:16,
+    fontFamily:'DIN-Regular'
+  },
+  horzLine:{
+    height:0.6,
+    marginLeft:SCREEN_HEIGHT/50,
+    width:SCREEN_WIDTH,
+    marginTop:SCREEN_HEIGHT/50,
+    backgroundColor:'lightgray'
+  },
+  reviewBox:{
+    marginHorizontal:SCREEN_HEIGHT/50,
+    height:SCREEN_HEIGHT/3.3,
+    borderWidth:1,
+    borderColor:'lightgray',
+    marginTop:SCREEN_HEIGHT/50,
+    padding:10
+  },
+  buttonTxt:{
+    color:'white',
+    fontWeight:'bold',
+    fontSize:14,
+    alignSelf:'center',
+    fontFamily:"DIN-Regular"
+  },
+  button:{
+    left:SCREEN_HEIGHT/33.3,
+    width:SCREEN_WIDTH - SCREEN_HEIGHT/16.6,
+    height:44,
+    backgroundColor:BUTTON_COLOR,
+    position:'absolute',
+    bottom:SCREEN_HEIGHT/33.3,
+    justifyContent:'center'
+  },
+  cardView:{
+    marginTop:10,
+    marginLeft:10,
+    width:SCREEN_WIDTH-20,
+    backgroundColor:'white',
+    paddingBottom:10
+  },
+bigText:{
+  marginTop:15,
+  fontSize:26,
+  fontFamily:'DIN-Regular',
+  marginLeft:10,
+  color:'black'
+},
+  rating:{
+    fontSize:13,
+    color:'white',
+    fontWeight:'bold',
+    alignItems:'center',
+    marginLeft:3.5
+  },
+  avatar:{
+    marginLeft:10,
+    width:40,
+    height:40,
+    borderRadius:20,
+    marginTop:10
+  }
+})

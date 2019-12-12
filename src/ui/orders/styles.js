@@ -1,0 +1,92 @@
+import {StyleSheet,PixelRatio,Platform} from 'react-native';
+import {SCREEN_WIDTH,SCREEN_HEIGHT} from '../../constants/common';
+import {BUTTON_COLOR,APP_COLOR,LIGHT_GRAY,FACEBOOK_HEX} from '../../constants/colors'
+
+export const STYLES=StyleSheet.create({
+  productTitle:{
+    marginTop:10,
+    fontSize:14,
+    color:'black',
+    marginLeft:10,
+    width:SCREEN_WIDTH-130,
+    fontFamily:"DIN-Regular"
+  },
+  trendingImages:{
+    marginLeft:10,
+    height:80,
+    width:80,
+    marginTop:10
+  },
+  card:{
+    marginHorizontal:5,
+    backgroundColor:'white',
+    marginTop:8,
+    borderRadius:0,
+    paddingBottom:Platform.OS=="ios"?10:20
+  },
+  text:{
+    marginHorizontal:10,
+    fontSize:15,
+    color:'black',
+    marginTop:20,
+    fontFamily:"DIN-Regular"
+  },
+  product:{
+    width:120,
+    height:120,
+    alignSelf:'center',
+    marginTop:SCREEN_HEIGHT/8.3
+  },
+  total:{
+    marginLeft:10,
+    color:'gray',
+    marginTop:SCREEN_HEIGHT/50,
+    fontFamily:"DIN-Regular"
+  },
+  title:{
+  marginHorizontal:SCREEN_HEIGHT/50,
+  color:'gray',
+  marginTop:SCREEN_HEIGHT/50,
+  fontFamily:"DIN-Regular"
+},
+horzLine:{
+  height:0.6,
+  backgroundColor:'lightgray',
+  width:SCREEN_WIDTH
+},
+  grayDiv:{
+    height:SCREEN_HEIGHT/50,
+    marginTop:0,
+    backgroundColor:LIGHT_GRAY,
+    width:SCREEN_WIDTH
+  },
+  btnTitle:{
+    margin:SCREEN_HEIGHT/50,
+    marginLeft:SCREEN_HEIGHT/50,
+    fontSize:13,
+    fontFamily:"DIN-Regular",
+    color:'black'
+  },
+  touchableOpacityContainer:{
+    marginTop:SCREEN_HEIGHT/10,
+    height:35,
+    marginLeft:SCREEN_HEIGHT/50,
+    backgroundColor:LIGHT_GRAY,
+    alignSelf: 'flex-start',
+    borderRadius:4
+  },
+  name:{
+    marginTop:10,
+    fontSize:14,
+    color:'black',
+    marginLeft:10,
+    width:SCREEN_WIDTH-90-SCREEN_HEIGHT/25,
+    fontFamily:"DIN-Regular",
+  },
+  txt:{
+    marginLeft:SCREEN_HEIGHT/50,
+    color:'black',
+    marginTop:5,
+    fontFamily:"DIN-Regular"
+  }
+})

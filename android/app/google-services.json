@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "550325860803",
+    "firebase_url": "https://tidal-solstice-186908.firebaseio.com",
+    "project_id": "tidal-solstice-186908",
+    "storage_bucket": "tidal-solstice-186908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550325860803:android:14cfa4d19cce0626",
+        "android_client_info": {
+          "package_name": "com.browneaglesuppliers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550325860803-g4emt1ds0u5tecn98ksmsm6mp33e05kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfkclK4eG7reFpPvEhkgQLO6UcKDWWecQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
